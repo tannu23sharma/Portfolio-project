@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: pink;
+    margin: 0;
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+    overflow: auto;
+}
+h1{
+    font-family: "DynaPuff", system-ui;
+    margin: 10px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    bottom: 20%;
+    display: block;
+    text-decoration: underline;
+}
+
+.container{
+    min-width: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    background: white;
+    border-radius:10%;
+    border: 30px double pink;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 650px) {
+    body{
+        overflow: scroll;
+        width: 100%;
+        height: 100vh;
+    }
+    .container {
+        max-width: 100%;
+        height: 650px; 
+    }
+    .strawberry{
+        width: 80px;
+        height: 80px;
+    }
+    p{
+        padding-top: 0;
+    }
+}
+.strawberry{
+    display: inline;
+    position: relative;
+    bottom:12%;
+    right: 15%;
+    width: 120px;
+    height: 120px;
+}
+.watermelon{
+    display: inline;
+    position: relative;
+    bottom:15%;
+    left: 85%;
+    width: 120px;
+    height: 120px;
+}
+p{
+    position: relative;
+    bottom: 20%;
+    padding-top: 20px;
+    display: block;
+    color: black;
+    text-align: left;
+    font-style: italic;
+}
