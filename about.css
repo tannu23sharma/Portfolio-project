@@ -19,12 +19,12 @@ body{
 }
 h1{
     font-family: "DynaPuff", system-ui;
-    margin: 10px;
+    margin-top: 10px;
     font-style: italic;
     font-weight: 500;
     text-align: center;
     position: relative;
-    bottom: 20%;
+    bottom: 25%;
     display: block;
     text-decoration: underline;
 }
@@ -83,4 +83,51 @@ p{
     color: black;
     text-align: left;
     font-style: italic;
+}
+.container2{
+    min-width: 200px;
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    background: white;
+    border-radius:10%;
+    border: 30px inset rgb(251, 251, 100);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.body2{
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: rgb(251, 251, 162);
+    margin: 0;
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+    overflow: auto;
+}
+.rainbow{
+    display: inline;
+    position: relative;
+    bottom:12%;
+    right: 15%;
+    width: 120px;
+    height: 120px;
+}
+.gridcontainer{
+    position: relative;
+    bottom: 20%;
+    padding-top: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,100px);
+    gap:10px;
+}
+#lines{
+    display: grid;
+    border:2px dashed;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
