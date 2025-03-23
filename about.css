@@ -31,6 +31,9 @@ h1{
 #skills{
     bottom: 25%;
 }
+#contacts{
+    bottom:0;
+}
 .container{
     min-width: 200px;
     display: inline-flex;
@@ -60,7 +63,7 @@ h1{
     p{
         padding-top: 0;
     }
-    .container2{
+    .container2,.container3{
         max-width: 100%;
         height: 500px;
     }
@@ -100,12 +103,33 @@ p{
     border: 30px inset rgb(251, 251, 100);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
+.container3{
+    min-width: 200px;
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    background: white;
+    border-radius:10%;
+    border: 30px double violet;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
 .body2{
     padding: 20px;
     height: 100vh;
     width: 100%;
     display: flex;
-    background: rgb(251, 251, 162);
+    background: rgb(251, 251, 100);
+    margin: 0;
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+    overflow: auto;
+}
+.body3{
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: rgb(253, 146, 253);
     margin: 0;
     justify-content: center;
     font-family: "Playwrite GB S", serif;
@@ -185,4 +209,32 @@ p{
     .strawberry{
         right:20%;
     }
+    .images img{
+        width: 50px;
+        height: 50px;
+        gap: 0;
+        padding: 0;
+    }
+    #contactsPara p{
+        font-size: 10px;
+    }
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+#contactsPara{
+    bottom: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+.image-hover {
+    transition: transform 0.3s ease-in-out;
+  } 
+.image-hover:hover {
+    transform: scale(1.1);
+
 }
