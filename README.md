@@ -1,6 +1,6 @@
 # 📌 Portfolio Project - Bento Layout  
 
-This is my <b>personal portfolio website</b>, built using <b>HTML, CSS, and JavaScript</b>.<br>
+This is my <b>personal portfolio website</b>, built using <b>HTML and CSS</b>.<br>
 It features a <i>modern Bento-style layout</i>, ensuring a clean and visually appealing web design.<br>
 The site is fully responsive, providing an optimized experience for both desktop and mobile devices.  
 <br><br>
